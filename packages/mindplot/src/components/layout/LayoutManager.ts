@@ -15,7 +15,7 @@
  *   See the License for the specific language governing permissions and
  *   limitations under the License.
  */
-import { $assert, $defined } from '@edifice/core-js';
+import { $assert, $defined } from '@edifice.io/core-js';
 import EventDispispatcher from '../EventDispatcher';
 import RootedTreeSet from './RootedTreeSet';
 import OriginalLayout from './OriginalLayout';

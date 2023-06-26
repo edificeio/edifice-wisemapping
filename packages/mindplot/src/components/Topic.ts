@@ -15,9 +15,9 @@
  *   See the License for the specific language governing permissions and
  *   limitations under the License.
  */
-import { $assert, $defined } from '@edifice/core-js';
+import { $assert, $defined } from '@edifice.io/core-js';
 
-import { Text, Group, ElementClass, ElementPeer, Rect } from '@edifice/web2d';
+import { Text, Group, ElementClass, ElementPeer, Rect } from '@edifice.io/web2d';
 
 import NodeGraph, { NodeOption } from './NodeGraph';
 import TopicFeatureFactory from './TopicFeature';

@@ -15,8 +15,8 @@
  *   See the License for the specific language governing permissions and
  *   limitations under the License.
  */
-import { Group, Rect } from '@edifice/web2d';
-import { $assert } from '@edifice/core-js';
+import { Group, Rect } from '@edifice.io/web2d';
+import { $assert } from '@edifice.io/core-js';
 import NodeModel from './model/NodeModel';
 import Canvas from './Canvas';
 import DragTopic from './DragTopic';

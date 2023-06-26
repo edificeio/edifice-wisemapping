@@ -16,7 +16,7 @@
  *   limitations under the License.
  */
 import $ from 'jquery';
-import { $assert } from '@edifice/core-js';
+import { $assert } from '@edifice.io/core-js';
 import TestSuite from './TestSuite';
 import LayoutManager from '../../../../src/components/layout/LayoutManager';
 

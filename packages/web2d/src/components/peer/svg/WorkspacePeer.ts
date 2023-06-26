@@ -15,7 +15,7 @@
  *   See the License for the specific language governing permissions and
  *   limitations under the License.
  */
-import { $defined } from '@edifice/core-js';
+import { $defined } from '@edifice.io/core-js';
 import ElementPeer from './ElementPeer';
 import EventUtils from '../utils/EventUtils';
 import SizeType from '../../SizeType';

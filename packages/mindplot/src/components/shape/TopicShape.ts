@@ -16,7 +16,7 @@
  *   limitations under the License.
  */
 
-import { Group } from '@edifice/web2d';
+import { Group } from '@edifice.io/web2d';
 import { TopicShapeType } from '../model/INodeModel';
 import SizeType from '../SizeType';
 

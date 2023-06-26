@@ -18,7 +18,7 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import Editor, { EditorOptions } from '../../../../src/index';
-import { LocalStorageManager, Designer } from '@edifice/mindplot';
+import { LocalStorageManager, Designer } from '@edifice.io/mindplot';
 import MapInfoImpl from './MapInfoImpl';
 
 const initialization = (designer: Designer) => {

@@ -15,8 +15,8 @@
  *   See the License for the specific language governing permissions and
  *   limitations under the License.
  */
-import { $assert, $defined } from '@edifice/core-js';
-import { Point, CurvedLine, Rect } from '@edifice/web2d';
+import { $assert, $defined } from '@edifice.io/core-js';
+import { Point, CurvedLine, Rect } from '@edifice.io/web2d';
 import PositionType from './PositionType';
 
 import SizeType from './SizeType';

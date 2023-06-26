@@ -16,8 +16,8 @@
  *   limitations under the License.
  */
 
-import { $assert } from '@edifice/core-js';
-import { Group } from '@edifice/web2d';
+import { $assert } from '@edifice.io/core-js';
+import { Group } from '@edifice.io/web2d';
 import IconGroupRemoveTip from './IconGroupRemoveTip';
 import ImageIcon from './ImageIcon';
 import SizeType from './SizeType';

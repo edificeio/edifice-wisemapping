@@ -1,5 +1,5 @@
 {
-  "name": "@edifice/web2d",
+  "name": "@edifice.io/web2d",
   "version": "0.5.23",
   "description": "WiseMapping - Web2D Render Library",
   "homepage": "http://www.wisemapping.org/",
@@ -39,10 +39,11 @@
     "start-server-and-test": "^1.15.2"
   },
   "peerDependencies": {
-    "@edifice/core-js": "*",
+    "@edifice.io/core-js": "^0.5.23",
     "jquery": "^3.6.0"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.com"
-  }
+  },
+  "gitHead": "e10f01921e674bc444fc9bd23a33656064a2caf3"
 }

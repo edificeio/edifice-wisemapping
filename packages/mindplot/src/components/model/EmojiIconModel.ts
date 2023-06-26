@@ -15,7 +15,7 @@
  *   See the License for the specific language governing permissions and
  *   limitations under the License.
  */
-import { $assert } from '@edifice/core-js';
+import { $assert } from '@edifice.io/core-js';
 import FeatureModel from './FeatureModel';
 
 class EmojiIconModel extends FeatureModel {

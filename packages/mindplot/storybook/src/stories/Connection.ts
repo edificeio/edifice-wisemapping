@@ -1,5 +1,6 @@
 import $ from 'jquery';
 
+import { $assert } from '@edifice.io/core-js';
 import { Mindmap, Topic } from '../../../src';
 import NodeModel from '../../../src/components/model/NodeModel';
 import CentralTopic from '../../../src/components/CentralTopic';
@@ -12,7 +13,6 @@ import EventBusDispatcher from '../../../src/components/layout/EventBusDispatche
 import LayoutManager from '../../../src/components/layout/LayoutManager';
 import ChangeEvent from '../../../src/components/layout/ChangeEvent';
 import LayoutEventBus from '../../../src/components/layout/LayoutEventBus';
-import { $assert } from '@edifice/core-js';
 
 const registerRefreshHook = (topics: Topic[]) => {
   // Trigger a redraw after the node is added ...

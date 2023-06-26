@@ -15,7 +15,7 @@
  *   See the License for the specific language governing permissions and
  *   limitations under the License.
  */
-import { CurvedLine, Arrow } from '@edifice/web2d';
+import { CurvedLine, Arrow } from '@edifice.io/web2d';
 import Relationship from './Relationship';
 import Shape from './util/Shape';
 import Canvas from './Canvas';

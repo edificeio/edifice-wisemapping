@@ -16,7 +16,7 @@
  *   limitations under the License.
  */
 import TextField, { TextFieldProps } from '@mui/material/TextField';
-import DesignerKeyboard from '@edifice/mindplot/src/components/DesignerKeyboard';
+import DesignerKeyboard from '@edifice.io/mindplot/src/components/DesignerKeyboard';
 import React, { ReactElement, useEffect } from 'react';
 
 /**

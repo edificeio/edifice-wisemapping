@@ -16,7 +16,7 @@
  *   limitations under the License.
  */
 import $ from 'jquery';
-import { $assert } from '@edifice/core-js';
+import { $assert } from '@edifice.io/core-js';
 // https://stackoverflow.com/questions/60357083/does-not-use-passive-listeners-to-improve-scrolling-performance-lighthouse-repo
 // https://web.dev/uses-passive-event-listeners/?utm_source=lighthouse&utm_medium=lr
 // eslint-disable-next-line import/extensions

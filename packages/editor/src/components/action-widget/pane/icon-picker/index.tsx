@@ -18,7 +18,7 @@
 import React, { ReactElement, useEffect } from 'react';
 import NodeProperty from '../../../../classes/model/node-property';
 import EmojiPicker, { EmojiClickData } from 'emoji-picker-react';
-import DesignerKeyboard from '@edifice/mindplot/src/components/DesignerKeyboard';
+import DesignerKeyboard from '@edifice.io/mindplot/src/components/DesignerKeyboard';
 import IconImageTab from './image-icon-tab';
 import Switch from '@mui/material/Switch';
 import FormGroup from '@mui/material/FormGroup';

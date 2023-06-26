@@ -1,4 +1,4 @@
-import { $assert } from '@edifice/core-js';
+import { $assert } from '@edifice.io/core-js';
 
 import CentralTopic from './CentralTopic';
 import MainTopic from './MainTopic';

@@ -15,8 +15,8 @@
  *   See the License for the specific language governing permissions and
  *   limitations under the License.
  */
-import { $assert } from '@edifice/core-js';
-import { ElementClass, ElementPeer, Group } from '@edifice/web2d';
+import { $assert } from '@edifice.io/core-js';
+import { ElementClass, ElementPeer, Group } from '@edifice.io/web2d';
 
 import ActionDispatcher from './ActionDispatcher';
 import DragPivot from './DragPivot';

@@ -21,7 +21,7 @@ import {
   PersistenceManager,
   DesignerModel,
   WidgetManager,
-} from '@edifice/mindplot';
+} from '@edifice.io/mindplot';
 import Capability from '../../action/capability';
 
 class Editor {

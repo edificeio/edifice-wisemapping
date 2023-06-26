@@ -15,8 +15,8 @@
  *   See the License for the specific language governing permissions and
  *   limitations under the License.
  */
-import { $assert, $defined } from '@edifice/core-js';
-import { Group, ElementClass, ElementPeer } from '@edifice/web2d';
+import { $assert, $defined } from '@edifice.io/core-js';
+import { Group, ElementClass, ElementPeer } from '@edifice.io/web2d';
 
 import Topic from './Topic';
 import Shape from './util/Shape';

@@ -1,5 +1,5 @@
 {
-  "name": "@edifice/mindplot",
+  "name": "@edifice.io/mindplot",
   "version": "5.0.23",
   "description": "WiseMapping - Mindplot Canvas Library",
   "homepage": "http://www.wisemapping.org/",
@@ -30,8 +30,8 @@
     "test:unit": "jest ./test/unit/export/*.ts ./test/unit/import/*.ts --verbose --silent --detectOpenHandles"
   },
   "dependencies": {
-    "@edifice/core-js": "^0.5.23",
-    "@edifice/web2d": "^0.5.23",
+    "@edifice.io/core-js": "^0.5.23",
+    "@edifice.io/web2d": "^0.5.23",
     "@types/jquery": "^3.5.11",
     "emoji-picker-react": "^4.4.3",
     "jquery": "3.6.0",
@@ -60,5 +60,6 @@
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.com"
-  }
+  },
+  "gitHead": "e10f01921e674bc444fc9bd23a33656064a2caf3"
 }

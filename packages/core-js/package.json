@@ -1,5 +1,5 @@
 {
-    "name": "@edifice/core-js",
+    "name": "@edifice.io/core-js",
     "version": "0.5.23",
     "description": "WiseMapping - Core Common Libraries",
     "homepage": "http://www.wisemapping.org/",
@@ -18,5 +18,6 @@
     },
     "publishConfig": {
         "registry": "https://registry.npmjs.com"
-    }
+    },
+    "gitHead": "e10f01921e674bc444fc9bd23a33656064a2caf3"
 }

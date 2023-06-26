@@ -1,7 +1,7 @@
 import Box from '@mui/material/Box';
 import React, { ReactElement } from 'react';
 import iconGroups from './iconGroups.json';
-import { SvgImageIcon } from '@edifice/mindplot';
+import { SvgImageIcon } from '@edifice.io/mindplot';
 import NodeProperty from '../../../../../classes/model/node-property';
 import { SvgIcon } from './styled';
 
