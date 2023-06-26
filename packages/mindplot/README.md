@@ -1,6 +1,6 @@
 # WiseMapping Mindplot
 
-WiseMapping Mindplot module is the core mind map rerendering of WiseMapping. This lighway library allows eithe edition and visualization of saved mindmaps. 
+WiseMapping Mindplot module is the core mind map rerendering of WiseMapping. This lighway library allows eithe edition and visualization of saved mindmaps.
 
 ## Usage
 
@@ -39,14 +39,15 @@ var widget = new MyAwesomeWidgetManager();
 // then build the designer with these params
 webComponent.buildDesigner(persistence, widget);
 ```
- 
+
 ## Usage with React framework
 
 To use the web component in your JSX code, first you need to register it in the IntrinsicElements interface using provided MindplotWebComponentInterface
 
 #### TypeScript example
+
 ```
-import { MindplotWebComponentInterface } from '@wisemapping/mindplot';
+import { MindplotWebComponentInterface } from '@edifice/mindplot';
 
 declare global {
   namespace JSX {
@@ -58,7 +59,7 @@ declare global {
 
 const App = ()=>{
   const mindplotComponent: any = useRef();
-  
+
   useEffect(()=>{
     mindplotComponent.current.buildDesigner();
     mindplotComponent.current.loadMap("map_id");
@@ -73,6 +74,5 @@ const App = ()=>{
   </div>);
 }
 ```
-
 
 Check out the examples located in `test/playground/map-render/js` for some hints on high level usage. You can browse them by running `yarn playground`.

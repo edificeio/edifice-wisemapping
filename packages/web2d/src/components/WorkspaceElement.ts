@@ -16,7 +16,7 @@
  *   limitations under the License.
  */
 
-import { $defined } from '@wisemapping/core-js';
+import { $defined } from '@edifice/core-js';
 import ElementPeer from './peer/svg/ElementPeer';
 import StyleAttributes from './StyleAttributes';
 

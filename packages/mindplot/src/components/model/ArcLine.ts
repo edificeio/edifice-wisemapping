@@ -16,7 +16,7 @@
  *   limitations under the License.
  */
 
-import { ArcLine as ArcLine2d } from '@wisemapping/web2d';
+import { ArcLine as ArcLine2d } from '@edifice/web2d';
 import Topic from '../Topic';
 
 class ArcLine extends ArcLine2d {

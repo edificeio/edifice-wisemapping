@@ -17,7 +17,7 @@
  *   limitations under the License.
  */
 
-import { $defined } from '@wisemapping/core-js';
+import { $defined } from '@edifice/core-js';
 import WorkspaceElement from './WorkspaceElement';
 import GroupPeer from './peer/svg/GroupPeer';
 import SizeType from './SizeType';

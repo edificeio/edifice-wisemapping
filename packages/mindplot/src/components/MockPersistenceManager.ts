@@ -16,7 +16,7 @@
  *   limitations under the License.
  */
 import $ from 'jquery';
-import { $assert } from '@wisemapping/core-js';
+import { $assert } from '@edifice/core-js';
 import PersistenceManager from './PersistenceManager';
 
 class MockPersistenceManager extends PersistenceManager {

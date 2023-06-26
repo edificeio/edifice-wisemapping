@@ -1,4 +1,4 @@
-import { createDocument, $assert } from '@wisemapping/core-js';
+import { createDocument, $assert } from '@edifice/core-js';
 import Arrowlink from './Arrowlink';
 import Cloud from './Cloud';
 import Edge from './Edge';

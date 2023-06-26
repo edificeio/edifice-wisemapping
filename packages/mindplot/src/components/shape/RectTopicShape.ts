@@ -15,7 +15,7 @@
  *   See the License for the specific language governing permissions and
  *   limitations under the License.
  */
-import { Rect } from '@wisemapping/web2d';
+import { Rect } from '@edifice/web2d';
 import SizeType from '../SizeType';
 import DefaultTopicShape from './DefaultShape';
 

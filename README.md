@@ -1,12 +1,12 @@
 # WiseMapping Frond End
 
-WiseMapping Frond End is part of the [MindMap Open Source Project](http://www.wisemapping.org). The first release of WiseMapping was in 2010 and there was not mayor update on the architecture. In 2021, a major change started with the goal to provide a visual and technology refresh of the project. 
+WiseMapping Frond End is part of the [MindMap Open Source Project](http://www.wisemapping.org). The first release of WiseMapping was in 2010 and there was not mayor update on the architecture. In 2021, a major change started with the goal to provide a visual and technology refresh of the project.
 
 WiseMapping Front extracts all the UI related aspects in this repository. You will find three major modules:
 
-* Web2D: Lighway abstraction over SVG for chart renderding.
-* Mindplot: Pure vanilla ES6 classes responsible for providing mindmap rendering and edition capabilities.
-* Webapp: REACT application that encompass the whole midnmap edition experience.
+- Web2D: Lighway abstraction over SVG for chart renderding.
+- Mindplot: Pure vanilla ES6 classes responsible for providing mindmap rendering and edition capabilities.
+- Webapp: REACT application that encompass the whole midnmap edition experience.
 
 ## Getting started
 
@@ -43,8 +43,8 @@ You can run these for all packages by running it from the root folder. Alternati
 
 > start a devServer with some browsable examples
 
-`yarn playground --scope @wisemapping/web2d`
-`yarn playground --scope @wisemapping/mindplot`
+`yarn playground --scope @edifice/web2d`
+`yarn playground --scope @edifice/mindplot`
 
 ## test
 
@@ -72,4 +72,4 @@ A workaround for this is to run the tests using docker. Make sure you have docke
 
 Run snapshot tests: `docker-compose -f docker-compose.snapshots.yml up`  
 If anything changed, and the change was intentional, update the snapshots and then commit the new images to source control.  
-Update snapshots: `docker-compose -f docker-compose.snapshots.update.yml up` 
+Update snapshots: `docker-compose -f docker-compose.snapshots.update.yml up`

@@ -1,4 +1,4 @@
-import { $assert } from '@wisemapping/core-js';
+import { $assert } from '@edifice/core-js';
 import SvgIconModel from './SvgIconModel';
 import LinkModel from './LinkModel';
 import NoteModel from './NoteModel';

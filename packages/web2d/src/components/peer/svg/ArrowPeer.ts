@@ -16,7 +16,7 @@
  *   limitations under the License.
  */
 
-import { $defined } from '@wisemapping/core-js';
+import { $defined } from '@edifice/core-js';
 import PositionType from '../../PositionType';
 import ElementPeer from './ElementPeer';
 

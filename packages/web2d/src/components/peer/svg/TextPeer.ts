@@ -15,7 +15,7 @@
  *   See the License for the specific language governing permissions and
  *   limitations under the License.
  */
-import { $defined } from '@wisemapping/core-js';
+import { $defined } from '@edifice/core-js';
 import FontPeer, { FontStyle } from './FontPeer';
 import ElementPeer from './ElementPeer';
 import { getPosition } from '../utils/DomUtils';
