@@ -59,7 +59,7 @@
     "start-server-and-test": "^1.15.3"
   },
   "publishConfig": {
-    "registry": "https://registry.npmjs.com"
+    "access": "public"
   },
-  "gitHead": "e10f01921e674bc444fc9bd23a33656064a2caf3"
+  "gitHead": "20b113052102b3acb7cd44c5adbed8544d32b8bf"
 }
