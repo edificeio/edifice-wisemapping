@@ -1,6 +1,6 @@
 {
   "name": "@edifice.io/editor",
-  "version": "0.5.23",
+  "version": "0.5.24",
   "repository": "http://www.wisemapping.com",
   "license": "MIT",
   "author": "Paulo Veiga <pveiga@gmail.com>, Ezequiel Bergamaschi <ezequielbergamaschi@gmail.com>",
@@ -21,7 +21,7 @@
     "test:unit": "jest ./test/unit/* --detectOpenHandles"
   },
   "dependencies": {
-    "@edifice.io/mindplot": "^5.0.23",
+    "@edifice.io/mindplot": "^5.0.24",
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
     "@mui/icons-material": "^5.9.3",
