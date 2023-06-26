@@ -18,7 +18,7 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import Editor, { EditorOptions } from '../../../../src/index';
-import { LocalStorageManager, Designer } from '@wisemapping/mindplot';
+import { LocalStorageManager, Designer } from '@edifice/mindplot';
 import MapInfoImpl from './MapInfoImpl';
 
 const initialization = (designer: Designer) => {
@@ -46,5 +46,5 @@ root.render(
     persistenceManager={persistence}
     onAction={(action) => console.log('action called:', action)}
     onLoad={initialization}
-  />
+  />,
 );

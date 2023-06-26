@@ -21,7 +21,7 @@ import {
   PersistenceManager,
   DesignerModel,
   WidgetManager,
-} from '@wisemapping/mindplot';
+} from '@edifice/mindplot';
 import Capability from '../../action/capability';
 
 class Editor {

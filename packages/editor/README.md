@@ -6,10 +6,10 @@ React Component for the wisemapping editor.
 
 This is a work in progress and for now mindplot needs to be instantiated using the initCallback prop. Check `test/playground/map-render` for some usage examples.
 
-    import Editor from `@wisemapping/editor`;
+    import Editor from `@edifice/editor`;
 
     ReactDOM.render(
-        <Editor 
+        <Editor
             mapId={1}
             readOnlyMode={false}
             locale="en"
@@ -18,7 +18,6 @@ This is a work in progress and for now mindplot needs to be instantiated using t
         />,
         document.getElementById('root'),
     );
-
 
 ## i18n
 

@@ -34,7 +34,7 @@ import {
   Importer,
   TextImporterFactory,
   XMLSerializerFactory,
-} from '@wisemapping/mindplot';
+} from '@edifice/mindplot';
 
 import Editor from './components';
 import { EditorOptions } from './components';
