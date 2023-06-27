@@ -1,6 +1,6 @@
 {
   "name": "@edifice.io/mindplot",
-  "version": "5.0.25",
+  "version": "5.1.0",
   "description": "WiseMapping - Mindplot Canvas Library",
   "homepage": "http://www.wisemapping.org/",
   "repository": {
@@ -32,7 +32,7 @@
   },
   "dependencies": {
     "@edifice.io/core-js": "0.5.25",
-    "@edifice.io/web2d": "0.5.25",
+    "@edifice.io/web2d": "^0.6.0",
     "@types/jquery": "^3.5.11",
     "emoji-picker-react": "^4.4.3",
     "jquery": "3.6.0",
