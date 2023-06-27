@@ -8,7 +8,7 @@ A WebComponent implementation for mindplot designer is available.
 This component is registered as mindplot-component in customElements API. (see https://developer.mozilla.org/en-US/docs/Web/API/CustomElementRegistry/define)
 For use it you need to import minplot.js and put in your DOM a <mindplot-component id="mindplot-comp"/> tag. In order to create a Designer on it you need to call its buildDesigner method. Maps can be loaded through loadMap method.
 
-#### Code example
+### Code example
 
 ```
 <!DOCTYPE html>
@@ -44,7 +44,7 @@ webComponent.buildDesigner(persistence, widget);
 
 To use the web component in your JSX code, first you need to register it in the IntrinsicElements interface using provided MindplotWebComponentInterface
 
-#### TypeScript example
+### TypeScript example
 
 ```
 import { MindplotWebComponentInterface } from '@edifice.io/mindplot';

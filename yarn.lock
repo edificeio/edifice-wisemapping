@@ -1840,7 +1840,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@edifice.io/core-js@^0.5.23, @edifice.io/core-js@workspace:packages/core-js":
+"@edifice.io/core-js@0.5.25, @edifice.io/core-js@workspace:packages/core-js":
   version: 0.0.0-use.local
   resolution: "@edifice.io/core-js@workspace:packages/core-js"
   languageName: unknown
@@ -1850,7 +1850,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@edifice.io/editor@workspace:packages/editor"
   dependencies:
-    "@edifice.io/mindplot": ^5.0.23
+    "@edifice.io/mindplot": 5.0.25
     "@emotion/react": ^11.10.5
     "@emotion/styled": ^11.10.5
     "@formatjs/cli": ^6.0.4
@@ -1876,13 +1876,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@edifice.io/mindplot@^5.0.23, @edifice.io/mindplot@workspace:packages/mindplot":
+"@edifice.io/mindplot@5.0.25, @edifice.io/mindplot@workspace:packages/mindplot":
   version: 0.0.0-use.local
   resolution: "@edifice.io/mindplot@workspace:packages/mindplot"
   dependencies:
     "@babel/core": ^7.20.12
-    "@edifice.io/core-js": ^0.5.23
-    "@edifice.io/web2d": ^0.5.23
+    "@edifice.io/core-js": 0.5.25
+    "@edifice.io/web2d": 0.5.25
     "@mdx-js/react": ^1.6.22
     "@storybook/addon-actions": ^6.5.16
     "@storybook/addon-docs": ^6.5.16
@@ -1908,7 +1908,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@edifice.io/web2d@^0.5.23, @edifice.io/web2d@workspace:packages/web2d":
+"@edifice.io/web2d@0.5.25, @edifice.io/web2d@workspace:packages/web2d":
   version: 0.0.0-use.local
   resolution: "@edifice.io/web2d@workspace:packages/web2d"
   dependencies:
@@ -1926,7 +1926,7 @@ __metadata:
     cypress-image-snapshot: ^4.0.1
     start-server-and-test: ^1.15.2
   peerDependencies:
-    "@edifice.io/core-js": ^0.5.23
+    "@edifice.io/core-js": 0.5.25
     jquery: ^3.6.0
   languageName: unknown
   linkType: soft

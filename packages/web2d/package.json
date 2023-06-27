@@ -39,7 +39,7 @@
     "start-server-and-test": "^1.15.2"
   },
   "peerDependencies": {
-    "@edifice.io/core-js": "^0.5.23",
+    "@edifice.io/core-js": "0.5.25",
     "jquery": "^3.6.0"
   },
   "publishConfig": {
