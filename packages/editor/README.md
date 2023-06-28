@@ -6,7 +6,7 @@ React Component for the wisemapping editor.
 
 This is a work in progress and for now mindplot needs to be instantiated using the initCallback prop. Check `test/playground/map-render` for some usage examples.
 
-    import Editor from `@edifice.io/editor`;
+    import Editor from `@edifice-wisemapping/editor`;
 
     ReactDOM.render(
         <Editor

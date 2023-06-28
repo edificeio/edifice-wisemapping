@@ -1,4 +1,4 @@
-import { createDocument, $assert } from '@edifice.io/core-js';
+import { createDocument, $assert } from '@edifice-wisemapping/core-js';
 import Arrowlink from './Arrowlink';
 import Cloud from './Cloud';
 import Edge from './Edge';

@@ -15,7 +15,7 @@
  *   See the License for the specific language governing permissions and
  *   limitations under the License.
  */
-import { $defined, $assert } from '@edifice.io/core-js';
+import { $defined, $assert } from '@edifice-wisemapping/core-js';
 import ActionDispatcher from './ActionDispatcher';
 import DesignerActionRunner from './DesignerActionRunner';
 import AddTopicCommand from './commands/AddTopicCommand';

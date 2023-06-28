@@ -17,7 +17,7 @@
  *   limitations under the License.
  */
 import React, { useRef, useState } from 'react';
-import { WidgetManager, Topic } from '@edifice.io/mindplot';
+import { WidgetManager, Topic } from '@edifice-wisemapping/mindplot';
 import { linkContent, noteContent } from './react-component';
 
 export class DefaultWidgetManager extends WidgetManager {

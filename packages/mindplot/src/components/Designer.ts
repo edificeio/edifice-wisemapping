@@ -17,7 +17,7 @@
  */
 import $ from 'jquery';
 
-import { $assert, $defined } from '@edifice.io/core-js';
+import { $assert, $defined } from '@edifice-wisemapping/core-js';
 import Messages, { $msg } from './Messages';
 
 import EventDispispatcher from './EventDispatcher';

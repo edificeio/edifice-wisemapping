@@ -15,8 +15,8 @@
  *   See the License for the specific language governing permissions and
  *   limitations under the License.
  */
-import { $assert } from '@edifice.io/core-js';
-import { Image } from '@edifice.io/web2d';
+import { $assert } from '@edifice-wisemapping/core-js';
+import { Image } from '@edifice-wisemapping/web2d';
 
 import ImageIcon from './ImageIcon';
 import ActionDispatcher from './ActionDispatcher';

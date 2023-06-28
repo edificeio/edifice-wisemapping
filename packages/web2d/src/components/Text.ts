@@ -16,7 +16,7 @@
  *   limitations under the License.
  */
 
-import { $assert } from '@edifice.io/core-js';
+import { $assert } from '@edifice-wisemapping/core-js';
 import WorkspaceElement from './WorkspaceElement';
 import { FontWeightType } from './FontWeightType';
 import TextPeer from './peer/svg/TextPeer';

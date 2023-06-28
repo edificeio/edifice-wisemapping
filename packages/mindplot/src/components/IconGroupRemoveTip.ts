@@ -1,5 +1,5 @@
-import { $assert } from '@edifice.io/core-js';
-import { Group, Rect, StraightLine } from '@edifice.io/web2d';
+import { $assert } from '@edifice-wisemapping/core-js';
+import { Group, Rect, StraightLine } from '@edifice-wisemapping/web2d';
 import ImageIcon from './ImageIcon';
 
 class IconGroupRemoveTip {

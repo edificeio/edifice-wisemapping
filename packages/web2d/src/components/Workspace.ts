@@ -15,7 +15,7 @@
  *   See the License for the specific language governing permissions and
  *   limitations under the License.
  */
-import { $defined } from '@edifice.io/core-js';
+import { $defined } from '@edifice-wisemapping/core-js';
 import WorkspaceElement from './WorkspaceElement';
 import WorkspacePeer from './peer/svg/WorkspacePeer';
 import PositionType from './PositionType';

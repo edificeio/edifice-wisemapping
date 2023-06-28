@@ -15,8 +15,8 @@
  *   See the License for the specific language governing permissions and
  *   limitations under the License.
  */
-import { $assert } from '@edifice.io/core-js';
-import { Workspace as Workspace2D, ElementClass, ElementPeer } from '@edifice.io/web2d';
+import { $assert } from '@edifice-wisemapping/core-js';
+import { Workspace as Workspace2D, ElementClass, ElementPeer } from '@edifice-wisemapping/web2d';
 import ScreenManager from './ScreenManager';
 import SizeType from './SizeType';
 import CanvasElement from './CanvasElement';

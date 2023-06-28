@@ -1,4 +1,4 @@
-import { Designer, Topic } from '@edifice.io/mindplot';
+import { Designer, Topic } from '@edifice-wisemapping/mindplot';
 import NodeProperty from '../node-property';
 import {
   getTheUniqueValueOrNull,
@@ -7,9 +7,9 @@ import {
   fontSizes,
   getNextValue,
 } from '../../../components/toolbar/ToolbarValueModelBuilder';
-import { LineType } from '@edifice.io/mindplot/src/components/ConnectionLine';
-import { TopicShapeType } from '@edifice.io/mindplot/src/components/model/INodeModel';
-import ThemeType from '@edifice.io/mindplot/src/components/model/ThemeType';
+import { LineType } from '@edifice-wisemapping/mindplot/src/components/ConnectionLine';
+import { TopicShapeType } from '@edifice-wisemapping/mindplot/src/components/model/INodeModel';
+import ThemeType from '@edifice-wisemapping/mindplot/src/components/model/ThemeType';
 
 class NodePropertyBuilder {
   designer: Designer;

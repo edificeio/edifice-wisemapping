@@ -16,7 +16,7 @@
  *   limitations under the License.
  */
 
-import { $assert } from '@edifice.io/core-js';
+import { $assert } from '@edifice-wisemapping/core-js';
 import $ from 'jquery';
 
 class ToolbarNotifier {

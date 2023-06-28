@@ -26,7 +26,7 @@ import {
   Designer,
   DesignerKeyboard,
   EditorRenderMode,
-} from '@edifice.io/mindplot';
+} from '@edifice-wisemapping/mindplot';
 
 import I18nMsg from '../classes/i18n-msg';
 // eslint-disable-next-line no-restricted-imports

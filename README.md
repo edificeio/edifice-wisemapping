@@ -43,8 +43,8 @@ You can run these for all packages by running it from the root folder. Alternati
 
 > start a devServer with some browsable examples
 
-`yarn playground --scope @edifice.io/web2d`
-`yarn playground --scope @edifice.io/mindplot`
+`yarn playground --scope @edifice-wisemapping/web2d`
+`yarn playground --scope @edifice-wisemapping/mindplot`
 
 ## test
 

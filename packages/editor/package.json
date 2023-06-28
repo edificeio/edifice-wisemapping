@@ -1,5 +1,5 @@
 {
-  "name": "@edifice.io/editor",
+  "name": "@edifice-wisemapping/editor",
   "version": "0.6.0",
   "repository": "http://www.wisemapping.com",
   "license": "MIT",
@@ -9,7 +9,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "npx webpack --config webpack.prod.js",
+    "build": "webpack --config webpack.prod.js",
     "cy:open": "cypress open",
     "cy:run": "cypress run",
     "i18n:compile": "bash -c 'for lang in {'es','en','fr','de','zh','ru'};do formatjs compile lang/${lang}.json --ast --out-file src/compiled-lang/${lang}.json;done'",
@@ -21,7 +21,7 @@
     "test:unit": "jest ./test/unit/* --detectOpenHandles"
   },
   "dependencies": {
-    "@edifice.io/mindplot": "^5.1.0",
+    "@edifice-wisemapping/mindplot": "^5.1.0",
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
     "@mui/icons-material": "^5.9.3",

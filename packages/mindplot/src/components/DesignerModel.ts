@@ -15,7 +15,7 @@
  *   See the License for the specific language governing permissions and
  *   limitations under the License.
  */
-import { $assert } from '@edifice.io/core-js';
+import { $assert } from '@edifice-wisemapping/core-js';
 import CentralTopic from './CentralTopic';
 import { DesignerOptions } from './DesignerOptionsBuilder';
 import Relationship from './Relationship';

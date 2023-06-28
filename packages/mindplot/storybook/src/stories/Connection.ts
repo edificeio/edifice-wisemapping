@@ -1,6 +1,6 @@
 import $ from 'jquery';
 
-import { $assert } from '@edifice.io/core-js';
+import { $assert } from '@edifice-wisemapping/core-js';
 import { Mindmap, Topic } from '../../../src';
 import NodeModel from '../../../src/components/model/NodeModel';
 import CentralTopic from '../../../src/components/CentralTopic';

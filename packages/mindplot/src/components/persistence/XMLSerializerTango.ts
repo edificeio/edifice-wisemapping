@@ -15,8 +15,8 @@
  *   See the License for the specific language governing permissions and
  *   limitations under the License.
  */
-import { $assert, $defined, createDocument } from '@edifice.io/core-js';
-import { Point } from '@edifice.io/web2d';
+import { $assert, $defined, createDocument } from '@edifice-wisemapping/core-js';
+import { Point } from '@edifice-wisemapping/web2d';
 import Mindmap from '../model/Mindmap';
 import FeatureModelFactory from '../model/FeatureModelFactory';
 import NodeModel from '../model/NodeModel';

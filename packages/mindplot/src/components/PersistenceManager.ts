@@ -16,7 +16,7 @@
  *   See the License for the specific language governing permissions and
  *   limitations under the License.
  */
-import { $assert } from '@edifice.io/core-js';
+import { $assert } from '@edifice-wisemapping/core-js';
 import { Mindmap } from '..';
 import XMLSerializerFactory from './persistence/XMLSerializerFactory';
 

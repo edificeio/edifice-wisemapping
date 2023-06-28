@@ -1,5 +1,5 @@
 {
-  "name": "@edifice.io/mindplot",
+  "name": "@edifice-wisemapping/mindplot",
   "version": "5.1.0",
   "description": "WiseMapping - Mindplot Canvas Library",
   "homepage": "http://www.wisemapping.org/",
@@ -31,8 +31,8 @@
     "test:unit": "jest ./test/unit/export/*.ts ./test/unit/import/*.ts --verbose --silent --detectOpenHandles"
   },
   "dependencies": {
-    "@edifice.io/core-js": "0.5.25",
-    "@edifice.io/web2d": "^0.6.0",
+    "@edifice-wisemapping/core-js": "0.5.25",
+    "@edifice-wisemapping/web2d": "^0.6.0",
     "@types/jquery": "^3.5.11",
     "emoji-picker-react": "^4.4.3",
     "jquery": "3.6.0",
