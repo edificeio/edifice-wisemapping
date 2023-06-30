@@ -39,7 +39,7 @@
     "start-server-and-test": "^1.15.2"
   },
   "peerDependencies": {
-    "@edifice-wisemapping/core-js": "0.5.25",
+    "@edifice-wisemapping/core-js": "0.6.0-alpha.0",
     "jquery": "^3.6.0"
   },
   "publishConfig": {
