@@ -68,8 +68,6 @@ class LocalStorageManager extends PersistenceManager {
     if (localStorate == null || this.forceLoad) {
       const url = this.documentUrl.replace('{id}', mapId);
 
-      console.log({ url, mapId });
-
       result = fetch(url, {
         method: 'get',
         headers: this.buildHeader(),

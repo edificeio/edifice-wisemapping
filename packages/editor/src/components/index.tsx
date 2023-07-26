@@ -15,29 +15,20 @@
  *   See the License for the specific language governing permissions and
  *   limitations under the License.
  */
-import React, { ReactElement, useEffect, useRef, useState } from 'react';
+import React, { ReactElement, useEffect } from 'react';
 import Popover from '@mui/material/Popover';
-import Model from '../classes/model/editor';
 import { Vortex } from 'react-loader-spinner';
 
 import { FormattedMessage, IntlProvider } from 'react-intl';
-import {
-  PersistenceManager,
-  Designer,
-  DesignerKeyboard,
-  EditorRenderMode,
-} from '@edifice-wisemapping/mindplot';
+import { Designer, DesignerKeyboard, EditorRenderMode } from '@edifice-wisemapping/mindplot';
 
 import I18nMsg from '../classes/i18n-msg';
 // eslint-disable-next-line no-restricted-imports
 import { Theme } from '@mui/material/styles';
 import { Notifier } from './warning-dialog/styled';
 import WarningDialog from './warning-dialog';
-import DefaultWidgetManager from '../classes/default-widget-manager';
 import AppBar from './app-bar';
-import Capability from '../classes/action/capability';
 import { ToolbarActionType } from './toolbar/ToolbarActionType';
-import MapInfo from '../classes/model/map-info';
 import EditorToolbar from './editor-toolbar';
 import ZoomPanel from './zoom-panel';
 import IconButton from '@mui/material/IconButton';
@@ -45,57 +36,29 @@ import Box from '@mui/material/Box';
 import CloseIcon from '@mui/icons-material/Close';
 import { SpinnerCentered } from './style';
 import Typography from '@mui/material/Typography';
+import { useWidgetManager } from '../hooks/useWidgetManager';
 
 export type EditorOptions = {
   mode: EditorRenderMode;
   locale: string;
   zoom?: number;
   enableKeyboardEvents: boolean;
+  enableAppBar?: boolean;
 };
 
 type EditorProps = {
-  mapInfo: MapInfo;
-  options: EditorOptions;
-  persistenceManager: PersistenceManager;
-  onAction: (action: ToolbarActionType) => void;
-  onLoad?: (designer: Designer) => void;
   theme?: Theme;
+  onLoad?: (designer: Designer) => void;
+  onAction: (action: ToolbarActionType) => void;
+  editor: { model; mindplotRef; mapInfo; capability; options };
   accountConfiguration?: React.ReactElement;
 };
 
-const Editor = ({
-  mapInfo,
-  options,
-  persistenceManager,
-  onAction,
-  accountConfiguration,
-}: EditorProps): ReactElement => {
-  const [model, setModel] = useState<Model | undefined>();
-  const mindplotRef = useRef(null);
+const Editor = ({ editor, onAction, accountConfiguration }: EditorProps): ReactElement => {
+  // We can access editor instance and other configuration from editor props
+  const { model, mindplotRef, mapInfo, capability, options } = editor;
 
-  // This is required to redraw in case of chansges in the canvas...
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const [canvasUpdate, setCanvasUpdate] = useState<number>();
-  const [popoverOpen, setPopoverOpen, popoverTarget, widgetManager] =
-    DefaultWidgetManager.useCreate();
-  const capability = new Capability(options.mode, mapInfo.isLocked());
-
-  useEffect(() => {
-    if (!model) {
-      const model = new Model(mindplotRef.current);
-      model
-        .loadMindmap(mapInfo.getId(), persistenceManager, widgetManager)
-        .then(() => {
-          setCanvasUpdate(Date.now());
-          model.registerEvents(setCanvasUpdate, capability);
-        })
-        .catch((e) => {
-          console.error(e);
-          window.newrelic?.noticeError(e);
-        });
-      setModel(model);
-    }
-  }, [mindplotRef]);
+  const [popoverOpen, setPopoverOpen, popoverTarget, widgetManager] = useWidgetManager();
 
   useEffect(() => {
     if (options.enableKeyboardEvents) {
@@ -105,18 +68,20 @@ const Editor = ({
     }
   }, [options.enableKeyboardEvents]);
 
-  // Initialize locate ...
+  // Initialize locale ...
   const locale = options.locale;
   const msg = I18nMsg.loadLocaleData(locale);
   return (
     <IntlProvider locale={locale} messages={msg}>
-      <AppBar
-        model={model}
-        mapInfo={mapInfo}
-        capability={capability}
-        onAction={onAction}
-        accountConfig={accountConfiguration}
-      />
+      {options.enableAppBar ? (
+        <AppBar
+          model={model}
+          mapInfo={mapInfo}
+          capability={capability}
+          onAction={onAction}
+          accountConfig={accountConfiguration}
+        />
+      ) : null}
 
       <Popover
         id="popover"
@@ -150,7 +115,7 @@ const Editor = ({
         ref={mindplotRef}
         id="mindmap-comp"
         mode={options.mode}
-        locale={options.locale}
+        locale={locale}
         zoom={options.zoom}
       />
 

@@ -36,6 +36,7 @@ class Editor {
   }
 
   save(minor: boolean): void {
+    console.log('minor');
     if (!this.component) {
       throw new Error('Designer object has not been initialized.');
     }

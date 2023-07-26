@@ -65,7 +65,6 @@ abstract class PersistenceManager {
     $assert(mapId, 'mapId can not be null');
     // eslint-disable-next-line arrow-body-style
     const document = await this.loadMapDom(mapId);
-    console.log({ document });
 
     return PersistenceManager.loadFromDom(mapId, document);
   }
