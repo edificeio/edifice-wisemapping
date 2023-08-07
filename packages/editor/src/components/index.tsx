@@ -108,8 +108,10 @@ const Editor = ({ editor, onAction, accountConfiguration }: EditorProps): ReactE
         {widgetManager.getEditorContent()}
       </Popover>
 
-      <EditorToolbar model={model} capability={capability} />
-      <ZoomPanel model={model} capability={capability} />
+      <div className="no-print">
+        <EditorToolbar model={model} capability={capability} />
+        <ZoomPanel model={model} capability={capability} />
+      </div>
 
       <mindplot-component
         ref={mindplotRef}
@@ -126,15 +128,17 @@ const Editor = ({ editor, onAction, accountConfiguration }: EditorProps): ReactE
       />
 
       {!model?.isMapLoadded() && (
-        <SpinnerCentered>
-          <Vortex
-            visible={true}
-            height="160"
-            width="160"
-            ariaLabel="vortex-loading"
-            colors={['#ffde1a', '#ffce00', '#ffa700', '#ff8d00', '#ff7400', '#ffde1a']}
-          />
-        </SpinnerCentered>
+        <div className="no-print">
+          <SpinnerCentered>
+            <Vortex
+              visible={true}
+              height="160"
+              width="160"
+              ariaLabel="vortex-loading"
+              colors={['#ffde1a', '#ffce00', '#ffa700', '#ff8d00', '#ff7400', '#ffde1a']}
+            />
+          </SpinnerCentered>
+        </div>
       )}
     </IntlProvider>
   );
