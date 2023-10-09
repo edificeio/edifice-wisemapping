@@ -9,10 +9,10 @@
         "defaultMessage": "Cet espace d'édition présente certaines des fonctionnalités des cartes mentales!"
     },
     "editor.try-welcome-description-mobile": {
-        "defaultMessage": "Inscrivez-vous pour commencer à créer, partager et publier gratuitement un nombre illimité de cartes mentales. Les capacités d'édition limitées de mindmap sont prises en charge dans les appareils mobiles. Utilisez le navigateur de bureau pour bénéficier de toutes les fonctionnalités de l'éditeur."
+        "defaultMessage": "Inscrivez-vous pour commencer à créer, partager et publier gratuitement un nombre illimité de cartes mentales. La carte mentale est optimisée pour une utilisation sur un ordinateur de bureau. Changez de support pour plus de confort et de fonctionnalités."
     },
     "editor.edit-description-mobile": {
-        "defaultMessage": "Les capacités d'édition limitées de mindmap sont prises en charge dans les appareils mobiles. Utilisez le navigateur de bureau pour bénéficier de toutes les fonctionnalités de l'éditeur."
+        "defaultMessage": "La carte mentale est optimisée pour une utilisation sur un ordinateur de bureau. Changez de support pour plus de confort et de fonctionnalités."
     },
     "action.accept": {
         "defaultMessage": "Accepter"
