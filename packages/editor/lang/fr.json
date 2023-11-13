@@ -90,13 +90,13 @@
         "defaultMessage": "Ajouter une relation"
     },
     "editor-panel.tooltip-add-topic": {
-        "defaultMessage": "Ajouter un sujet"
+        "defaultMessage": "Ajouter un noeud"
     },
     "editor-panel.tooltip-delete-topic": {
-        "defaultMessage": "Supprimer un sujet"
+        "defaultMessage": "Supprimer un noeud"
     },
     "editor-panel.tooltip-delete-sujet": {
-        "defaultMessage": "Supprimer le sujet"
+        "defaultMessage": "Supprimer le noeud"
     },
     "editor-panel.tooltip-topic-border-color": {
         "defaultMessage": "Couleur de bordure"
@@ -132,7 +132,7 @@
         "defaultMessage": "Forme ronde"
     },
     "editor-panel.tooltip-topic-style": {
-        "defaultMessage": "Style de sujet"
+        "defaultMessage": "Style de noeud"
     },
     "zoom-panel.tooltip-keyboard": {
         "defaultMessage": "Clavier"
@@ -177,19 +177,19 @@
         "defaultMessage": "Masquer les noeuds enfants"
     },
     "shortcut-help-pane.copy-and-text": {
-        "defaultMessage": "Copier et coller des sujets"
+        "defaultMessage": "Copier et coller des noeuds"
     },
     "shortcut-help-pane.delete-topic": {
-        "defaultMessage": "Supprimer le sujet"
+        "defaultMessage": "Supprimer le noeud"
     },
     "shortcut-help-pane.deselect-all-topics": {
-        "defaultMessage": "Désélectionner tous les sujets"
+        "defaultMessage": "Désélectionner tous les noeuds"
     },
     "shortcut-help-pane.edit-multiline": {
         "defaultMessage": "Ajouter une ligne au noeud"
     },
     "shortcut-help-pane.edit-topic": {
-        "defaultMessage": "Modifier le texte du sujet"
+        "defaultMessage": "Modifier le texte du noeud"
     },
     "shortcut-help-pane.edit-topic-key": {
         "defaultMessage": "Double-clic"
@@ -228,7 +228,7 @@
         "defaultMessage": "Courbe polyligne"
     },
     "shortcut-help-pane.overwrite-edit-topic": {
-        "defaultMessage": "Remplacer le texte du sujet"
+        "defaultMessage": "Remplacer le texte du noeud"
     },
     "shortcut-help-pane.overwrite-edit-topic-key": {
         "defaultMessage": "Ecrire dans le noeud sélectionné"

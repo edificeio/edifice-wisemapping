@@ -56,6 +56,9 @@
   "editor-panel.note-panel-title": {
     "defaultMessage": "Note"
   },
+  "editor-panel.theme-title": {
+    "defaultMessage": "Theme"
+  },
   "editor-panel.tooltip-add-icon": {
     "defaultMessage": "Add Icon"
   },
@@ -80,6 +83,9 @@
   "editor-panel.tooltip-connection-style": {
     "defaultMessage": "Connection Style"
   },
+  "editor-panel.tooltip-connection-style-arc": {
+    "defaultMessage": "Arc"
+  },
   "editor-panel.tooltip-connection-style-curved-thick": {
     "defaultMessage": "Thick Curved"
   },
@@ -94,6 +100,9 @@
   },
   "editor-panel.tooltip-delete-topic": {
     "defaultMessage": "Delete Topic"
+  },
+  "editor-panel.tooltip-theme": {
+    "defaultMessage": "Theme"
   },
   "editor-panel.tooltip-topic-border-color": {
     "defaultMessage": "Border color"
@@ -133,6 +142,9 @@
   },
   "editor-panel.tooltip-topic-share-line": {
     "defaultMessage": "Line shape"
+  },
+  "editor-panel.tooltip-topic-share-none": {
+    "defaultMessage": "None shape"
   },
   "editor-panel.tooltip-topic-share-rectangle": {
     "defaultMessage": "Rectangle shape"

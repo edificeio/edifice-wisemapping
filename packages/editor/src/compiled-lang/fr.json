@@ -152,7 +152,7 @@
   "editor-panel.tooltip-add-topic": [
     {
       "type": 0,
-      "value": "Ajouter un sujet"
+      "value": "Ajouter un noeud"
     }
   ],
   "editor-panel.tooltip-connection-color": [
@@ -206,13 +206,13 @@
   "editor-panel.tooltip-delete-sujet": [
     {
       "type": 0,
-      "value": "Supprimer le sujet"
+      "value": "Supprimer le noeud"
     }
   ],
   "editor-panel.tooltip-delete-topic": [
     {
       "type": 0,
-      "value": "Supprimer un sujet"
+      "value": "Supprimer un noeud"
     }
   ],
   "editor-panel.tooltip-theme": [
@@ -326,7 +326,7 @@
   "editor-panel.tooltip-topic-style": [
     {
       "type": 0,
-      "value": "Style de sujet"
+      "value": "Style de noeud"
     }
   ],
   "editor.edit-description-mobile": [
@@ -434,19 +434,19 @@
   "shortcut-help-pane.copy-and-text": [
     {
       "type": 0,
-      "value": "Copier et coller des sujets"
+      "value": "Copier et coller des noeuds"
     }
   ],
   "shortcut-help-pane.delete-topic": [
     {
       "type": 0,
-      "value": "Supprimer le sujet"
+      "value": "Supprimer le noeud"
     }
   ],
   "shortcut-help-pane.deselect-all-topics": [
     {
       "type": 0,
-      "value": "Désélectionner tous les sujets"
+      "value": "Désélectionner tous les noeuds"
     }
   ],
   "shortcut-help-pane.drag-disconnect": [
@@ -464,7 +464,7 @@
   "shortcut-help-pane.edit-topic": [
     {
       "type": 0,
-      "value": "Modifier le texte du sujet"
+      "value": "Modifier le texte du noeud"
     }
   ],
   "shortcut-help-pane.edit-topic-key": [
@@ -488,7 +488,7 @@
   "shortcut-help-pane.overwrite-edit-topic": [
     {
       "type": 0,
-      "value": "Remplacer le texte du sujet"
+      "value": "Remplacer le texte du noeud"
     }
   ],
   "shortcut-help-pane.overwrite-edit-topic-key": [

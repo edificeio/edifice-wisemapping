@@ -113,6 +113,12 @@
       "value": "Note"
     }
   ],
+  "editor-panel.theme-title": [
+    {
+      "type": 0,
+      "value": "Theme"
+    }
+  ],
   "editor-panel.tooltip-add-icon": [
     {
       "type": 0,
@@ -161,6 +167,12 @@
       "value": "Connection Style"
     }
   ],
+  "editor-panel.tooltip-connection-style-arc": [
+    {
+      "type": 0,
+      "value": "Arc"
+    }
+  ],
   "editor-panel.tooltip-connection-style-curved-thick": [
     {
       "type": 0,
@@ -189,6 +201,12 @@
     {
       "type": 0,
       "value": "Delete Topic"
+    }
+  ],
+  "editor-panel.tooltip-theme": [
+    {
+      "type": 0,
+      "value": "Theme"
     }
   ],
   "editor-panel.tooltip-topic-border-color": [
@@ -267,6 +285,12 @@
     {
       "type": 0,
       "value": "Line shape"
+    }
+  ],
+  "editor-panel.tooltip-topic-share-none": [
+    {
+      "type": 0,
+      "value": "None shape"
     }
   ],
   "editor-panel.tooltip-topic-share-rectangle": [
