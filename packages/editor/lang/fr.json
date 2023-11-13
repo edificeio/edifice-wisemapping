@@ -279,6 +279,6 @@
         "defaultMessage": "Couleur par défaut"
     },
     "shortcut-help-pane.drag-disconnect": {
-        "defaultMessage": "Déconnecter le sujet"
+        "defaultMessage": "Déconnecter le noeud"
     }
 }

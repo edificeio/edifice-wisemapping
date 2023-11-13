@@ -452,7 +452,7 @@
   "shortcut-help-pane.drag-disconnect": [
     {
       "type": 0,
-      "value": "Déconnecter le sujet"
+      "value": "Déconnecter le noeud"
     }
   ],
   "shortcut-help-pane.edit-multiline": [
