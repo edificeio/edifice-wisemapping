@@ -56,6 +56,7 @@ const IconPicker = ({ triggerClose, iconModel }: IconPickerProp): ReactElement =
     <Box style={{ padding: '5px' }}>
       {checked && (
         <EmojiPicker
+          searchDisabled={true}
           onEmojiClick={handleEmojiSelect}
           lazyLoadEmojis={true}
           autoFocusSearch={true}
