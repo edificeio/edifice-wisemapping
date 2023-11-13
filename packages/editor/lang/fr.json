@@ -153,7 +153,7 @@
         "defaultMessage": "Action"
     },
     "shortcut-help-pane.add-child": {
-        "defaultMessage": "Ajouter le sujet de l'enfant"
+        "defaultMessage": "Ajouter un noeud enfant"
     },
     "shortcut-help-pane.add-link": {
         "defaultMessage": "Ajouter un lien"
@@ -162,19 +162,19 @@
         "defaultMessage": "Ajouter une note"
     },
     "shortcut-help-pane.add-sibling": {
-        "defaultMessage": "Ajouter un sujet de frère"
+        "defaultMessage": "Ajouter un noeud frère"
     },
     "shortcut-help-pane.cancel-text-changes": {
         "defaultMessage": "Annuler les modifications du texte"
     },
     "shortcut-help-pane.change-font-bold": {
-        "defaultMessage": "Changer de texte en gras"
+        "defaultMessage": "Passer le texte en gras"
     },
     "shortcut-help-pane.change-font-italic": {
-        "defaultMessage": "Changer le texte en italique"
+        "defaultMessage": "Passer le texte en italique"
     },
     "shortcut-help-pane.collapse-children": {
-        "defaultMessage": "Effondrer les enfants"
+        "defaultMessage": "Masquer les noeuds enfants"
     },
     "shortcut-help-pane.copy-and-text": {
         "defaultMessage": "Copier et coller des sujets"
@@ -186,16 +186,16 @@
         "defaultMessage": "Désélectionner tous les sujets"
     },
     "shortcut-help-pane.edit-multiline": {
-        "defaultMessage": "Ajouter le texte du sujet multi-ligne"
+        "defaultMessage": "Ajouter une ligne au noeud"
     },
     "shortcut-help-pane.edit-topic": {
         "defaultMessage": "Modifier le texte du sujet"
     },
     "shortcut-help-pane.edit-topic-key": {
-        "defaultMessage": "Commencez juste à taper"
+        "defaultMessage": "Double-clic"
     },
     "shortcut-help-pane.navigation": {
-        "defaultMessage": "La navigation"
+        "defaultMessage": "Naviguer"
     },
     "shortcut-help-pane.navigation-keys": {
         "defaultMessage": "Touches directionnelles"
@@ -207,10 +207,10 @@
         "defaultMessage": "Sauvegarder les modifications"
     },
     "shortcut-help-pane.select-all-topics": {
-        "defaultMessage": "Sélectionnez tous les sujets"
+        "defaultMessage": "Sélectionner tous les noeuds"
     },
     "shortcut-help-pane.select-topics": {
-        "defaultMessage": "Sélectionnez plusieurs sujets"
+        "defaultMessage": "Sélectionner plusieurs noeuds"
     },
     "shortcut-help-pane.select-topics-keys": {
         "defaultMessage": "Clic de souris"
@@ -231,7 +231,7 @@
         "defaultMessage": "Remplacer le texte du sujet"
     },
     "shortcut-help-pane.overwrite-edit-topic-key": {
-        "defaultMessage": "Commencer à écrire sur le sujet sélectionné"
+        "defaultMessage": "Ecrire dans le noeud sélectionné"
     },
     "editor-panel.tooltip-topic-share-none": {
         "defaultMessage": "Aucune forme"
