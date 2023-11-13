@@ -1,6 +1,6 @@
 {
   "name": "@edifice-wisemapping/web2d",
-  "version": "0.7.4",
+  "version": "0.7.5",
   "description": "WiseMapping - Web2D Render Library",
   "homepage": "http://www.wisemapping.org/",
   "repository": {
@@ -39,7 +39,7 @@
     "start-server-and-test": "^1.15.2"
   },
   "peerDependencies": {
-    "@edifice-wisemapping/core-js": "0.6.0-alpha.0",
+    "@edifice-wisemapping/core-js": "^0.6.4",
     "jquery": "^3.6.0"
   },
   "publishConfig": {

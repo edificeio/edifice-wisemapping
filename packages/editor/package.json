@@ -1,6 +1,6 @@
 {
   "name": "@edifice-wisemapping/editor",
-  "version": "0.7.6",
+  "version": "0.7.7",
   "repository": "http://www.wisemapping.com",
   "license": "MIT",
   "author": "Paulo Veiga <pveiga@gmail.com>, Ezequiel Bergamaschi <ezequielbergamaschi@gmail.com>",
@@ -21,12 +21,12 @@
     "test:unit": "jest ./test/unit/* --detectOpenHandles"
   },
   "dependencies": {
-    "@edifice-wisemapping/mindplot": "^5.2.4",
+    "@edifice-wisemapping/mindplot": "^5.2.5",
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
     "@mui/icons-material": "^5.9.3",
     "@mui/material": "^5.10.11",
-    "emoji-picker-react": "^4.4.7",
+    "emoji-picker-react": "4.5.2",
     "react-color": "^2.19.3",
     "react-intl": "^6.2.1",
     "react-loader-spinner": "^5.3.4",
