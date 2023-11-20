@@ -1,10 +1,18 @@
-import { PersistenceManager } from '@edifice-wisemapping/mindplot';
+import { EditorRenderMode, PersistenceManager } from '@edifice-wisemapping/mindplot';
 import { useState, useRef, useEffect } from 'react';
 import Capability from '../../classes/action/capability';
 import MapInfo from '../../classes/model/map-info';
-import { EditorOptions } from '../../components';
 import { useWidgetManager } from '../useWidgetManager';
 import Model from '../../classes/model/editor';
+
+export type EditorOptions = {
+  mode: EditorRenderMode;
+  locale: string;
+  zoom?: number;
+  enableKeyboardEvents: boolean;
+  enableAppBar?: boolean;
+  saveOnLoad?: boolean;
+};
 
 type UseEditorProps = {
   mapInfo: MapInfo;
@@ -12,7 +20,19 @@ type UseEditorProps = {
   persistenceManager: PersistenceManager;
 };
 
-export const useEditor = ({ mapInfo, options, persistenceManager }: UseEditorProps): object => {
+export interface EditorConfiguration {
+  model;
+  mindplotRef: React.MutableRefObject<unknown>;
+  mapInfo: MapInfo;
+  capability: Capability;
+  options: EditorOptions;
+}
+
+export const useEditor = ({
+  mapInfo,
+  options,
+  persistenceManager,
+}: UseEditorProps): EditorConfiguration => {
   // We create model inside useEditor hook to instantiate everything outside Editor Component
   const [model, setModel] = useState<Model | undefined>();
   // useEditor hook creates mindplotRef
@@ -21,7 +41,7 @@ export const useEditor = ({ mapInfo, options, persistenceManager }: UseEditorPro
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [, setCanvasUpdate] = useState<number>();
 
-  const [, , , widgetManager] = useWidgetManager();
+  const { widgetManager } = useWidgetManager();
   const capability = new Capability(options.mode, mapInfo.isLocked());
 
   useEffect(() => {

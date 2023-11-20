@@ -37,9 +37,8 @@ import {
 } from '@edifice-wisemapping/mindplot';
 
 import Editor from './components';
-import { EditorOptions } from './components';
 import MapInfo from './classes/model/map-info';
-import { useEditor } from './hooks/useEditor';
+import { EditorOptions, useEditor } from './hooks/useEditor';
 
 declare global {
   // used in mindplot

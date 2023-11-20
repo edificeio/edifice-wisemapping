@@ -20,7 +20,7 @@ import Popover from '@mui/material/Popover';
 import { Vortex } from 'react-loader-spinner';
 
 import { FormattedMessage, IntlProvider } from 'react-intl';
-import { Designer, DesignerKeyboard, EditorRenderMode } from '@edifice-wisemapping/mindplot';
+import { Designer, DesignerKeyboard } from '@edifice-wisemapping/mindplot';
 
 import I18nMsg from '../classes/i18n-msg';
 // eslint-disable-next-line no-restricted-imports
@@ -37,20 +37,13 @@ import CloseIcon from '@mui/icons-material/Close';
 import { SpinnerCentered } from './style';
 import Typography from '@mui/material/Typography';
 import { useWidgetManager } from '../hooks/useWidgetManager';
-
-export type EditorOptions = {
-  mode: EditorRenderMode;
-  locale: string;
-  zoom?: number;
-  enableKeyboardEvents: boolean;
-  enableAppBar?: boolean;
-};
+import { EditorConfiguration } from '../hooks/useEditor';
 
 type EditorProps = {
   theme?: Theme;
-  onLoad?: (designer: Designer) => void;
   onAction: (action: ToolbarActionType) => void;
-  editor: { model; mindplotRef; mapInfo; capability; options };
+  onLoad: (designer: Designer) => void;
+  editor: EditorConfiguration;
   accountConfiguration?: React.ReactElement;
 };
 
@@ -58,7 +51,7 @@ const Editor = ({ editor, onAction, accountConfiguration }: EditorProps): ReactE
   // We can access editor instance and other configuration from editor props
   const { model, mindplotRef, mapInfo, capability, options } = editor;
 
-  const [popoverOpen, setPopoverOpen, popoverTarget, widgetManager] = useWidgetManager();
+  const { popoverOpen, setPopoverOpen, popoverTarget, widgetManager } = useWidgetManager();
 
   useEffect(() => {
     if (options.enableKeyboardEvents) {
