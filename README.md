@@ -1,3 +1,10 @@
+# À propos d'edifice-wisemapping
+    
+* Licence : [AGPL v3](http://www.gnu.org/licenses/agpl.txt) - Copyright Edifice
+* Financeur(s) : Edifice
+* Développeur(s) : Edifice
+* Description : librairie d'intégration de wisemapping dans le framework Edifice.
+
 # WiseMapping Frond End
 
 WiseMapping Frond End is part of the [MindMap Open Source Project](http://www.wisemapping.org). The first release of WiseMapping was in 2010 and there was not mayor update on the architecture. In 2021, a major change started with the goal to provide a visual and technology refresh of the project.
